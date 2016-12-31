@@ -1,8 +1,11 @@
 FuBar_ElysiumPopulationFu = AceLibrary("AceAddon-2.0"):new("AceEvent-2.0", "AceConsole-2.0", "AceDB-2.0", "FuBarPlugin-2.0")
 FuBar_ElysiumPopulationFu.hasIcon = true
+FuBar_ElysiumPopulationFu.cannotHideText = true
+FuBar_ElysiumPopulationFu.cannotDetachTooltip = true
 FuBar_ElysiumPopulationFu.hasNoColor = true
 FuBar_ElysiumPopulationFu.clickableTooltip = true
 FuBar_ElysiumPopulationFu.folderName = "FuBar_ElysiumPopulationFu"
+FuBar_ElysiumPopulationFu:RegisterDB("FuBar_ElysiumPopulationFuDB")
 
 local waitForWho = 0
 

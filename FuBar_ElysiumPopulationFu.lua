@@ -45,7 +45,5 @@ end
 
 function FuBar_ElysiumPopulationFu:OnClick()
   self:SetText("Updating...")
-  SetWhoToUI(0)
-  waitForWho = 1
-  SendWho("$-`")
+  SendWhoQuery()
 end
